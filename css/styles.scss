@@ -3,7 +3,7 @@ $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 $textcolor-floralwhite:$lt-gray;
-$clonebtncolor:$lt-gray;
+$clonebtncolor: $floralwhite;
 // Height variables
 $carousel-item-height: 300px;
 
@@ -79,10 +79,16 @@ $carousel-item-height: 300px;
 .modal-header {
     background-color: $background-dark;
     color: $lt-gray;
+
+    .clone {
+        color:floralwhite;
+    }
    
 
 }
 .modal-body {
     background-color: $background-pale;     
-     }
+}
+
+
    
